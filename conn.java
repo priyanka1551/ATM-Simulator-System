@@ -6,7 +6,7 @@ public class conn {
         //mySQL is an external entity ,so there are chances of error at runtime,hence to catch these errors we will use tryCatch
         try{
             //it will automatically register the driver
-            c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","priyanka1551@"); 
+            c=DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem","root","personal_password"); 
             //paste the name of ur database after 3 slash
             s=c.createStatement();
         }catch(Exception e){
